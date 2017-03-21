@@ -36,12 +36,10 @@ TEST(BoundaryValue, Robust)
 
 TEST(EquivalenceClass, WeakNormal)
 {
-    //None
     EXPECT_EQ(INVALID, CheckTriangle(100, 1, 2));
     EXPECT_EQ(EQUILATERAL, CheckTriangle(100, 100, 100));
     EXPECT_EQ(ISOSCELES, CheckTriangle(180, 150, 150));
     EXPECT_EQ(UNEQUAL, CheckTriangle(50, 60, 70));
-
 }
 
 TEST(EquivalenceClass, WeakRobust)
