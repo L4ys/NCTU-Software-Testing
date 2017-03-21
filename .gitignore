@@ -31,3 +31,5 @@
 # Debug files
 *.dSYM/
 *.su
+
+hw1_unittest
